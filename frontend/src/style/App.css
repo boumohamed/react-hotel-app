@@ -1,0 +1,72 @@
+main
+{
+    min-height: 95vh;
+}
+.with-footer{
+  min-height: 60vh;
+}
+.bg-img
+{
+    background-image: url('https://cf.bstatic.com/images/hotel/max1280x900/222/222059819.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 1024px) {
+    .bg-image {
+      background-attachment: scroll;
+    }
+  }
+/*
+[12:40, 4/27/2021] Bouzri M: bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+[12:41, 4/27/2021] Bouzri M: @media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+*/
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 8s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.details-img{
+  height: 100vh;
+}
+
+
+
+.form-control {
+  display:initial !important;
+}
+
+.row{
+       
+  min-height: 300px;
+}
+.centering{
+  background-image: url('https://www.jagdhof.com/grafik/resize/1920x880_upload-website-pageimage--welcome-to-the-dolcevita-hotel-jagdhof--2_448_3840x1760.jpg');
+  height: 88vh;
+}
+.textarea{
+  resize : none;
+
+}
